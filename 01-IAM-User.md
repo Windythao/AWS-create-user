@@ -1,4 +1,4 @@
-
+- refer https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/?fbclid=IwAR1bJKl4XHDL1VP0ICkPgsBY1DLFo5i_nhPQYMlaOfWvpNgBN51po8iuO5s
 ![image](https://user-images.githubusercontent.com/87864528/142994263-c30461ed-4ea8-450b-945c-2ce6a2d8b2cf.png)
 
 ![image](https://user-images.githubusercontent.com/87864528/142994711-3611aa6e-aaac-4fea-8fc8-bce396a4fbc4.png)
@@ -44,8 +44,22 @@ Jenkins is now installed and running on your EC2 instance. To configure Jenkins:
 Connect to http://<your_server_public_DNS>:8080 from your favorite browser. You will be able to access Jenkins through its management interface:
 
    - Fix installation issue (error daemon..)
+   ```
    33  sudo amazon-linux-extras install epel -y
    34  sudo yum update -y
    35  sudo yum install jenkins java-1.8.0-openjdk-devel
    36  sudo systemctl start jenkins
    37  sudo systemctl status jenkins
+   cmd: type sudo su -> sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+![image](https://user-images.githubusercontent.com/87864528/143036463-9df90c9f-4b85-4092-883f-ca7efc498a3b.png)
+![image](https://user-images.githubusercontent.com/87864528/143037195-8993cd8d-5d47-44bc-9008-992931a0c155.png)
+![image](https://user-images.githubusercontent.com/87864528/143038039-9559b545-05a3-450a-9d99-8fa454e62174.png)
+![image](https://user-images.githubusercontent.com/87864528/143038145-7d4271e8-f165-496f-8f6f-bd4243e6714a.png)
+![image](https://user-images.githubusercontent.com/87864528/143038257-13a01075-f7b1-411a-ada0-cb89c6cc6ab9.png)
+
+- Quiz:
+![image](https://user-images.githubusercontent.com/87864528/143039186-206c929d-61bb-497e-b20d-477824c44c2f.png)
+![image](https://user-images.githubusercontent.com/87864528/143039781-d19e7711-d051-4c88-bba8-f799cd00ca31.png)
+![image](https://user-images.githubusercontent.com/87864528/143040246-33b56f4b-1cbf-4841-a375-560eb9deba3b.png)
+
+
