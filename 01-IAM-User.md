@@ -51,6 +51,8 @@ Connect to http://<your_server_public_DNS>:8080 from your favorite browser. You 
    36  sudo systemctl start jenkins
    37  sudo systemctl status jenkins
    cmd: type sudo su -> sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+   ```
+   
 ![image](https://user-images.githubusercontent.com/87864528/143036463-9df90c9f-4b85-4092-883f-ca7efc498a3b.png)
 ![image](https://user-images.githubusercontent.com/87864528/143037195-8993cd8d-5d47-44bc-9008-992931a0c155.png)
 ![image](https://user-images.githubusercontent.com/87864528/143038039-9559b545-05a3-450a-9d99-8fa454e62174.png)
